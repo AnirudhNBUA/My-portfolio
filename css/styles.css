@@ -11,11 +11,12 @@ body {
 }
 
 h1 {
-    line-height: 2;
-    font-size: 5.625rem;
     color: #66BFBF;
-    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+
 }
 
 h2 {
@@ -50,4 +51,14 @@ a {
     position: absolute;
     left: 34.375rem;
     bottom: 18.75rem;
+}
+
+.middle-container .profile img {
+    width: 15%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
 }
